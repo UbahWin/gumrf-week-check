@@ -1,0 +1,74 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+    margin-bottom: 5%;
+    user-select: none;
+}
+
+.title-text {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.what-week-text {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
+    user-select: none;
+    text-align: center;
+}
+
+.custom-week {
+    color: rgb(80, 80, 80);
+    border-bottom: 1px dashed rgb(80, 80, 80);
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+    user-select: none;
+}
+
+.custom-week:hover {
+    cursor: pointer;
+    color: rgb(35, 35, 35);
+}
+
+.wrapper p {
+    display: flex;
+}
+
+.date-select {
+    margin: 10px;
+}
